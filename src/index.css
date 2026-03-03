@@ -1,0 +1,109 @@
+:root {
+  --bg-deep: #020617;
+  --bg-mid: #0f172a;
+  --text-main: #e2e8f0;
+  --text-soft: #cbd5e1;
+  --brand-cyan: #38bdf8;
+  --brand-mint: #2dd4bf;
+  --card-border: #1f2937;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Segoe UI", "Inter", "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-main);
+  background: linear-gradient(160deg, var(--bg-mid), var(--bg-deep));
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  width: 100%;
+  overflow-x: clip;
+  padding-top: 84px;
+  padding-bottom: 72px;
+}
+
+.layout-main {
+  min-height: 30vh;
+}
+
+/* Navbar visual polish */
+.navbar.navbar-dark.bg-dark {
+  background: rgba(2, 6, 23, 0.88) !important;
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.18);
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #f8fafc;
+}
+
+.navbar .nav-link {
+  color: #cbd5e1 !important;
+  transition: color 0.25s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-item:hover {
+  color: var(--brand-cyan) !important;
+}
+
+.navbar .dropdown-menu {
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 10px;
+  background: #0b1220;
+}
+
+.navbar .dropdown-item {
+  color: #dbeafe;
+}
+
+@media (max-width: 991.98px) {
+  main {
+    padding-top: 76px;
+    padding-bottom: 60px;
+  }
+
+  .navbar .navbar-collapse {
+    margin-top: 10px;
+    border-top: 1px solid rgba(148, 163, 184, 0.2);
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  main {
+    padding-top: 72px;
+    padding-bottom: 48px;
+  }
+}

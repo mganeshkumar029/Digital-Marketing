@@ -1,0 +1,120 @@
+.about-section {
+    min-height: 100vh;
+    padding: clamp(36px, 5vw, 80px) 20px;
+    background:
+        radial-gradient(circle at 1px 1px, rgba(30, 41, 59, 0.75) 1px, transparent 0),
+        #020617;
+    background-size: 40px 40px;
+    text-align: center;
+    color: white;
+    font-family: "Segoe UI", "Inter", sans-serif;
+}
+
+.about-section .about-title {
+    font-size: clamp(1.75rem, 4.8vw, 3.25rem);
+    color: #2dd4bf;
+    margin: 8px 0 10px;
+    line-height: 1.2;
+}
+
+.about-section .about-subtitle {
+    color: #cbd5e1;
+    margin-bottom: 40px;
+    font-size: clamp(1rem, 2.3vw, 1.1rem);
+}
+
+.about-section .about-card {
+    max-width: 1100px;
+    margin: 0 auto 28px;
+    padding: clamp(18px, 3vw, 44px);
+    border-radius: 18px;
+    text-align: left;
+    background: linear-gradient(145deg, rgba(15, 23, 42, 0.95), rgba(2, 6, 23, 0.94));
+    border: 1px solid #1f2937;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+.about-section .about-card h2 {
+    color: #38bdf8;
+    margin-bottom: 18px;
+}
+
+.about-section .about-card h3 {
+    color: #22d3ee;
+    margin-top: 26px;
+    font-size: clamp(1.05rem, 2.2vw, 1.28rem);
+}
+
+.about-section .about-card p {
+    color: #cbd5e1;
+    line-height: 1.75;
+    overflow-wrap: anywhere;
+}
+
+.about-section .about-card ul {
+    margin: 15px 0 20px 20px;
+}
+
+.about-section .about-card li {
+    margin-bottom: 8px;
+    color: #e2e8f0;
+}
+
+.about-section .faq-title {
+    margin-top: 44px;
+    color: #38bdf8;
+}
+
+.about-section .faq-item {
+    max-width: 1100px;
+    margin: 18px auto 0;
+    padding: clamp(14px, 2.4vw, 22px);
+    border-radius: 12px;
+    text-align: left;
+    background: #020617;
+    border: 1px solid #1f2937;
+    transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.about-section .faq-item:hover {
+    transform: translateX(6px);
+    border-color: #22d3ee;
+}
+
+.about-section .faq-item h4 {
+    color: #22d3ee;
+    margin-bottom: 8px;
+    font-size: clamp(0.98rem, 2vw, 1.08rem);
+}
+
+.about-section .faq-item p {
+    color: #cbd5e1;
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 991.98px) {
+    .about-section {
+        padding-inline: 16px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .about-section .about-card {
+        border-radius: 14px;
+    }
+
+    .about-section .about-card ul {
+        margin-left: 16px;
+    }
+
+    .about-section .faq-item:hover {
+        transform: none;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .about-section {
+        padding-inline: 12px;
+    }
+}

@@ -1,0 +1,122 @@
+.contact-wrap {
+    padding: clamp(26px, 4vw, 44px) 20px;
+    background:
+        radial-gradient(400px 200px at 80% 20%, rgba(56, 189, 248, 0.18), transparent),
+        radial-gradient(320px 200px at 20% 70%, rgba(45, 212, 191, 0.18), transparent);
+}
+
+.contact-wrap .contact-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: 24px;
+    max-width: 1120px;
+    margin: auto;
+}
+
+.contact-wrap .card {
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid rgba(203, 213, 225, 0.9);
+    border-radius: 14px;
+    padding: clamp(16px, 2.8vw, 26px);
+    box-shadow: 0 14px 30px rgba(2, 6, 23, 0.15);
+}
+
+.contact-wrap .card-info {
+    background: rgba(248, 250, 252, 0.96);
+}
+
+.contact-wrap .card-header h2 {
+    color: #0f172a;
+    font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+    margin-bottom: 10px;
+}
+
+.contact-wrap .muted {
+    color: #475569;
+}
+
+.contact-wrap .row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.contact-wrap .col {
+    flex: 1;
+    min-width: 0;
+}
+
+.contact-wrap .label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.contact-wrap .input {
+    width: 100%;
+    padding: 11px 12px;
+    border-radius: 10px;
+    border: 1px solid #cbd5e1;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-wrap .input:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.18);
+}
+
+.contact-wrap .input-area {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.contact-wrap .checkbox {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 16px;
+    color: #334155;
+}
+
+.contact-wrap .btn {
+    padding: 11px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.contact-wrap .btn-success {
+    background: linear-gradient(135deg, #16a34a, #22c55e);
+    color: #fff;
+}
+
+.contact-wrap img {
+    width: 100%;
+    margin-top: 18px;
+    border-radius: 12px;
+    border: 1px solid #cbd5e1;
+}
+
+@media (max-width: 991.98px) {
+    .contact-wrap .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-wrap {
+        padding-inline: 14px;
+    }
+
+    .contact-wrap .row {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .contact-wrap .btn-success {
+        width: 100%;
+    }
+}

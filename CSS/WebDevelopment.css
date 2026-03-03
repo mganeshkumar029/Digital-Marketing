@@ -1,0 +1,97 @@
+.web-page.services-page {
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #e5e7eb;
+    padding: clamp(34px, 5vw, 64px) 20px;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.web-page .page-header {
+    text-align: center;
+    margin-bottom: clamp(36px, 7vw, 72px);
+}
+
+.web-page .page-header h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    background: linear-gradient(to right, #22d3ee, #3b82f6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.web-page .page-header p {
+    opacity: 0.88;
+    margin-top: 10px;
+    font-size: clamp(0.95rem, 2vw, 1.08rem);
+}
+
+.web-page .service-section {
+    display: flex;
+    gap: clamp(16px, 3vw, 36px);
+    max-width: 1120px;
+    margin: 0 auto 36px;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 22px;
+    padding: clamp(16px, 2.8vw, 30px);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(96, 165, 250, 0.16);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.web-page .service-section:hover {
+    transform: translateY(-4px);
+    border-color: rgba(34, 211, 238, 0.55);
+    box-shadow: 0 0 24px rgba(59, 130, 246, 0.18);
+}
+
+.web-page .service-section.reverse {
+    flex-direction: row-reverse;
+}
+
+.web-page .service-section img {
+    width: 45%;
+    border-radius: 18px;
+    object-fit: cover;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+}
+
+.web-page .service-section .content {
+    width: 55%;
+    min-width: 0;
+}
+
+.web-page .service-section h2 {
+    color: #7dd3fc;
+    font-size: clamp(1.3rem, 2.4vw, 1.8rem);
+    margin-bottom: 14px;
+}
+
+.web-page .service-section p {
+    font-size: 0.96rem;
+    opacity: 0.9;
+    line-height: 1.66;
+}
+
+@media (max-width: 991.98px) {
+
+    .web-page .service-section,
+    .web-page .service-section.reverse {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .web-page .service-section img,
+    .web-page .service-section .content {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .web-page.services-page {
+        padding-inline: 14px;
+    }
+
+    .web-page .service-section {
+        border-radius: 14px;
+        margin-bottom: 24px;
+    }
+}

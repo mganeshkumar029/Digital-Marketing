@@ -1,0 +1,43 @@
+.basic-form-wrap {
+    min-height: 60vh;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.basic-form-card {
+    width: min(100%, 520px);
+    background: rgba(255, 255, 255, 0.96);
+    border: 1px solid #cbd5e1;
+    border-radius: 14px;
+    padding: 20px;
+    color: #0f172a;
+}
+
+.basic-form-card div {
+    margin-bottom: 12px;
+}
+
+.basic-form-card label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.basic-form-card input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+}
+
+.basic-form-card button {
+    margin-top: 8px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 11px 14px;
+    color: #fff;
+    background: linear-gradient(135deg, #0284c7, #14b8a6);
+    font-weight: 700;
+}

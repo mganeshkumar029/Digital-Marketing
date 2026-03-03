@@ -1,0 +1,124 @@
+.about-page {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #020617, #0f172a);
+    color: #ffffff;
+    padding: clamp(36px, 5vw, 68px) 20px;
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.about-page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/svg+xml;utf8,\
+  <svg xmlns='http://www.w3.org/2000/svg' width='60' height='60' viewBox='0 0 60 60'>\
+    <g fill='white' opacity='0.9'>\
+      <circle cx='6' cy='8' r='0.7'/>\
+      <circle cx='22' cy='14' r='0.6'/>\
+      <circle cx='40' cy='6' r='0.7'/>\
+      <circle cx='52' cy='28' r='0.5'/>\
+      <circle cx='10' cy='44' r='0.6'/>\
+      <circle cx='34' cy='36' r='0.55'/>\
+      <circle cx='50' cy='50' r='0.6'/>\
+    </g>\
+  </svg>");
+    background-repeat: repeat;
+    opacity: 0.16;
+    mix-blend-mode: screen;
+    pointer-events: none;
+}
+
+.about-page::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(400px 200px at 80% 20%, rgba(56, 189, 248, 0.18), transparent 30%),
+        radial-gradient(300px 180px at 20% 70%, rgba(45, 212, 191, 0.14), transparent 30%),
+        radial-gradient(120px 80px at 60% 50%, rgba(255, 255, 255, 0.06), transparent 25%);
+    filter: blur(8px);
+    mix-blend-mode: overlay;
+}
+
+.about-page .about-card {
+    max-width: 1100px;
+    margin: 0 auto 34px;
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(12px);
+    border-radius: 18px;
+    padding: clamp(20px, 2.6vw, 32px);
+    border: 1px solid rgba(125, 211, 252, 0.16);
+    transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+    position: relative;
+    z-index: 2;
+}
+
+.about-page .about-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(45, 212, 191, 0.45);
+    box-shadow: 0 0 24px rgba(34, 211, 238, 0.16);
+}
+
+.about-page .about-card h2 {
+    color: #38bdf8;
+    margin-bottom: 16px;
+    font-size: clamp(1.45rem, 2.6vw, 1.9rem);
+}
+
+.about-page .about-card p {
+    opacity: 0.9;
+    font-size: 1rem;
+    line-height: 1.72;
+}
+
+.about-page .about-card ul {
+    padding-left: 18px;
+}
+
+.about-page .about-card li {
+    margin-bottom: 8px;
+    opacity: 0.88;
+    font-size: 0.96rem;
+}
+
+.about-page .about-header {
+    text-align: center;
+    margin-bottom: 52px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-page .about-header h1 {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    background: linear-gradient(to right, #38bdf8, #22c55e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-page .about-header p {
+    opacity: 0.88;
+    margin-top: 10px;
+    font-size: clamp(0.95rem, 2vw, 1.08rem);
+}
+
+@media (max-width: 767.98px) {
+    .about-page .about-card {
+        text-align: left;
+    }
+
+    .about-page .about-card ul {
+        padding-left: 16px;
+    }
+}
+
+@media (max-width: 479.98px) {
+    .about-page {
+        padding-inline: 14px;
+    }
+
+    .about-page .about-card {
+        border-radius: 14px;
+    }
+}
