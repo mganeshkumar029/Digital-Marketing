@@ -42,7 +42,7 @@ const Contact = () => {
                     <div className="card-header">
                         <h2>Ready to Grow Your Business?</h2>
                         <p className="muted">
-                            Partner with ASHX-USA GLOBAL NETWORK and take your brand to the next level.
+                            Partner with ASHX GLOBAL NETWORK and take your brand to the next level.
                         </p>
                         <p className="muted">
                             We'd love to hear from you — fill the form and we'll respond within

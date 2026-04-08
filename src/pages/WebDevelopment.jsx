@@ -1,5 +1,7 @@
 import React from 'react'
 import "../../CSS/WebDevelopment.css"
+import { resolveAsset } from "../utils/resolveAsset"
+
 
 function WebDevelopment() {
     return (
@@ -15,7 +17,7 @@ function WebDevelopment() {
 
                     {/* Web Development – Digital Design */}
                     <div className="service-section">
-                        <img src="/assets/images/web/digital-design.jpg" alt="Digital Design" />
+                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation.png")} alt="Digital Design" />
                         <div className="content">
                             <h2>Digital Design</h2>
                             <p>
@@ -26,7 +28,7 @@ function WebDevelopment() {
 
                     {/* Graphic Design */}
                     <div className="service-section reverse">
-                        <img src="/assets/images/web/graphic-design.jpg" alt="Graphic Design" />
+                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (1).png")} alt="Graphic Design" />
                         <div className="content">
                             <h2>Graphic Design</h2>
                             <p>
@@ -37,7 +39,7 @@ function WebDevelopment() {
 
                     {/* UI UX */}
                     <div className="service-section">
-                        <img src="/assets/images/web/uiux.jpg" alt="UI/UX Design" />
+                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (2).png")} alt="UI/UX Design" />
                         <div className="content">
                             <h2>UI/UX Design</h2>
                             <p>
@@ -48,7 +50,7 @@ function WebDevelopment() {
 
                     {/* Web Design */}
                     <div className="service-section reverse">
-                        <img src="/assets/images/web/web-design.jpg" alt="Web Design" />
+                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (3).png")} alt="Web Design" />
                         <div className="content">
                             <h2>Web Design</h2>
                             <p>
@@ -59,7 +61,7 @@ function WebDevelopment() {
 
                     {/* Website Maintenance */}
                     <div className="service-section">
-                        <img src="/assets/images/web/maintenance.jpg" alt="Website Maintenance" />
+                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (4).png")} alt="Website Maintenance" />
                         <div className="content">
                             <h2>Website Maintenance</h2>
                             <p>

@@ -71,7 +71,7 @@ function About() {
                 <div className="about-card">
                     <h2>Our Commitment</h2>
                     <p>
-                        At <strong>ASHX-USA GLOBAL NETWORK</strong>, we focus on transparency,
+                        At <strong>ASHX GLOBAL NETWORK</strong>, we focus on transparency,
                         timely execution, continuous improvement & delivering excellence.
                     </p>
                     <p>

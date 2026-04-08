@@ -1,11 +1,18 @@
 import "../../CSS/Blog.css";
+import { resolveAsset } from "../utils/resolveAsset"
 
 function Blog() {
     return (
         <div className="about-section">
-
+            <div className="container blog-hero">
+                <img
+                    className="blog-hero-image"
+                    src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail.png")}
+                    alt="AI Search Optimization"
+                />
+            </div>
             {/* Title */}
-            <h1 className="about-title">The Future of AI in Digital Marketing</h1>
+            <h1 className="about-title">The Future of AI in Digital Marketing </h1>
             <p className="about-subtitle">
                 Practical Use Cases and ROI Impact Beyond 2026
             </p>
@@ -137,6 +144,13 @@ function Blog() {
                 </p>
             </div>
             {/* META ADS SECTION */}
+            <div className="container blog-hero">
+                <img
+                    className="blog-hero-image"
+                    src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (1).png")}
+                    alt="AI Search Optimization"
+                />
+            </div>
             <h2 className="about-title">Meta Ads Bidding Strategies for 2026</h2>
 
             <div className="about-card">
@@ -296,6 +310,13 @@ function Blog() {
             </div>
 
             {/* SEO CONTENT SECTION */}
+            <div className="container blog-hero">
+                <img
+                    className="blog-hero-image"
+                    src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (2).png")}
+                    alt="AI Search Optimization"
+                />
+            </div>
             <h2 className="about-title">Top SEO Content Marketing Strategy 2026 for Businesses</h2>
 
             <div className="about-card">
@@ -441,7 +462,16 @@ function Blog() {
             </div>
 
             {/* DIGITAL VS TRADITIONAL MARKETING SECTION */}
-            <h2 className="about-title">Digital Marketing vs Traditional Marketing: Which One Is Right for Your Business?</h2>
+            <div className="container blog-hero">
+                <img
+                    className="blog-hero-image"
+                    src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (3).png")}
+                    alt="AI Search Optimization"
+                />
+            </div>
+            <h2 className="about-title">Digital Marketing vs Traditional Marketing </h2>
+            <p className="about-subtitle">
+                Which One Is Right for Your Business?            </p>
 
             <div className="about-card">
                 <p>
@@ -556,7 +586,16 @@ function Blog() {
             </div>
 
             {/* GOOGLE ADS SMART BIDDING SECTION */}
-            <h2 className="about-title">The Future of Smart Bidding in Google Ads: 7 AI Trends Transforming Search Ads by 2026</h2>
+            <div className="container blog-hero">
+                <img
+                    className="blog-hero-image"
+                    src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (4).png")}
+                    alt="AI Search Optimization"
+                />
+            </div>
+            <h2 className="about-title">The Future of Smart Bidding in Google Ads</h2>
+            <p className="about-subtitle">
+                7 AI Trends Transforming Search Ads by 2026            </p>
 
             <div className="about-card">
                 <p>
@@ -626,7 +665,7 @@ function Blog() {
             </div>
 
             {/* GOOGLE ADS SMART BIDDING FAQ SECTION */}
-            <h2 className="about-title">Frequently Asked Questions (FAQs)</h2>
+            <h2 className="about-title"> FAQs</h2>
 
             <div className="faq-item">
                 <h4>1. What is Smart Bidding in Google Ads?</h4>
@@ -699,7 +738,17 @@ function Blog() {
             </div>
 
             {/* TRADITIONAL MARKETING SECTION */}
-            <h2 className="about-title">Traditional Marketing: Why Offline Promotion Still Matters in the Digital Age</h2>
+            <div className="container blog-hero">
+                <img
+                    className="blog-hero-image"
+                    src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (5).png")}
+                    alt="AI Search Optimization"
+                />
+            </div>
+            <h2 className="about-title">Traditional Marketing</h2>
+            <p className="about-subtitle">
+                Why Offline Promotion Still Matters in the Digital Age
+            </p>
 
             <div className="about-card">
                 <p>
@@ -779,7 +828,7 @@ function Blog() {
             </div>
 
             {/* TRADITIONAL MARKETING FAQ SECTION */}
-            <h2 className="about-title">Frequently Asked Questions (FAQs)</h2>
+            <h2 className="about-title"> FAQs</h2>
 
             <div className="faq-item">
                 <h4>1. What is traditional marketing?</h4>
