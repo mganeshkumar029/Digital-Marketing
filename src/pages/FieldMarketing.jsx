@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../CSS/FieldMarketing.css"
 import { resolveAsset } from "../utils/resolveAsset"
+import LazyImage from "../components/LazyImage"
 
 
 function FieldMarketing() {
@@ -15,7 +16,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section">
-                    <img src={resolveAsset("client/src/assets/pexels-fauxels-3184292.jpg.jpeg")} alt="Field Marketing" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-fauxels-3184292.jpg.jpeg")} alt="Field Marketing" />
                     <div className="content">
                         <h2>1. Field Marketing Services</h2>
                         <ul>
@@ -33,7 +34,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section reverse">
-                    <img src={resolveAsset("client/src/assets/pexels-mikael-blomkvist-6476249.jpg.jpeg")} alt="Print Advertising" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-mikael-blomkvist-6476249.jpg.jpeg")} alt="Print Advertising" />
                     <div className="content">
                         <h2>2. Print & Traditional Advertising</h2>
                         <ul>
@@ -48,7 +49,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section">
-                    <img src={resolveAsset("client/src/assets/pexels-cottonbro-6896221.jpg.jpeg")} alt="Broadcast Media Marketing" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-cottonbro-6896221.jpg.jpeg")} alt="Broadcast Media Marketing" />
                     <div className="content">
                         <h2>3. Broadcast Media Marketing</h2>
                         <ul>
@@ -61,7 +62,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section reverse">
-                    <img src={resolveAsset("client/src/assets/pexels-cherubs-22669860.jpg.jpeg")} alt="Event Marketing" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-cherubs-22669860.jpg.jpeg")} alt="Event Marketing" />
                     <div className="content">
                         <h2>4. Event Marketing & Sponsorships</h2>
                         <ul>
@@ -74,7 +75,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section">
-                    <img src={resolveAsset("client/src/assets/pexels-rdne-7648045.jpg.jpeg")} alt="Public Relations" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-rdne-7648045.jpg.jpeg")} alt="Public Relations" />
                     <div className="content">
                         <h2>5. Public Relations (PR)</h2>
                         <ul>
@@ -87,7 +88,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section reverse">
-                    <img src={resolveAsset("client/src/assets/pexels-fauxels-3184416.jpg.jpeg")} alt="Telemarketing" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-fauxels-3184416.jpg.jpeg")} alt="Telemarketing" />
                     <div className="content">
                         <h2>6. Telemarketing & Personal Selling</h2>
                         <ul>
@@ -100,7 +101,7 @@ function FieldMarketing() {
 
 
                 <div className="service-section">
-                    <img src={resolveAsset("client/src/assets/pexels-fauxels-3184438.jpg.jpeg")} alt="Sponsorships" />
+                    <LazyImage src={resolveAsset("client/src/assets/pexels-fauxels-3184438.jpg.jpeg")} alt="Sponsorships" />
                     <div className="content">
                         <h2>7. Sponsorships & Partnerships</h2>
                         <ul>

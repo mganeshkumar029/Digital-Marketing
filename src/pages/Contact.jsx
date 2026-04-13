@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../../CSS/Contact.css";
+import LazyImage from "../components/LazyImage";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -149,7 +150,7 @@ const Contact = () => {
                     <h4>Working hours</h4>
                     <p>Mon - Fri: 9:00 - 18:00</p>
 
-                    <img
+                    <LazyImage
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcoZrpiJ0dCw2vClTyOGKJ6s-SMGwA-Z-Lw&s"
                         alt="office"
                     />

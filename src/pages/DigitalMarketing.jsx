@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../CSS/digitalMarketing.css"
 import { resolveAsset } from "../utils/resolveAsset"
+import LazyImage from "../components/LazyImage"
 
 function DigitalMarketing() {
     return (
@@ -17,7 +18,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 AI Search Optimization */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/Blue White and Black Modern AI Solutions Presentation.png")} alt="AI Search Optimization" />
+                        <LazyImage src={resolveAsset("client/src/assets/Blue White and Black Modern AI Solutions Presentation.png")} alt="AI Search Optimization" />
                         <div className="content">
                             <h2>AI Search Optimization</h2>
                             <h3>LLM Optimization</h3>
@@ -31,7 +32,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Advertising */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/dm-adv.jpeg")} alt="Advertising" />
+                        <LazyImage src={resolveAsset("client/src/assets/dm-adv.jpeg")} alt="Advertising" />
                         <div className="content">
                             <h2>Advertising</h2>
 
@@ -48,7 +49,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Amazon Marketing */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/Untitled design (4) (1).png")} alt="Amazon Marketing" />
+                        <LazyImage src={resolveAsset("client/src/assets/Untitled design (4) (1).png")} alt="Amazon Marketing" />
                         <div className="content">
                             <h2>Amazon Marketing</h2>
                             <ul>
@@ -60,7 +61,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Branding */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/pexels-yankrukov-7693716 (2).jpg.jpeg")} alt="Branding" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-yankrukov-7693716 (2).jpg.jpeg")} alt="Branding" />
 
                         <div className="content">
                             <h2>Branding</h2>
@@ -75,7 +76,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Content Marketing */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/pexels-kindelmedia-7688336.jpg.jpeg")} alt="Content Marketing" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-kindelmedia-7688336.jpg.jpeg")} alt="Content Marketing" />
                         <div className="content">
                             <h2>Content Marketing</h2>
                             <ul>
@@ -88,7 +89,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Data Analytics */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/pexels-yankrukov-7691724.jpg.jpeg")} alt="Data Analytics" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-yankrukov-7691724.jpg.jpeg")} alt="Data Analytics" />
                         <div className="content">
                             <h2>Data Analytics</h2>
                             <ul>
@@ -99,7 +100,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Marketing Advice */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/pexels-fauxels-3184465.jpg.jpeg")} alt="Marketing Advice" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-fauxels-3184465.jpg.jpeg")} alt="Marketing Advice" />
                         <div className="content">
                             <h2>Marketing Advice</h2>
                             <ul>
@@ -112,7 +113,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Marketing Automation */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/pexels-fauxels-3183150.jpg.jpeg")} alt="Email Marketing" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-fauxels-3183150.jpg.jpeg")} alt="Email Marketing" />
                         <div className="content">
                             <h2>Marketing Automation</h2>
                             <ul>
@@ -123,7 +124,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Public Relations */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/pexels-rdne-8369835.jpg.jpeg")} alt="Public Relations" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-rdne-8369835.jpg.jpeg")} alt="Public Relations" />
                         <div className="content">
                             <h2>Public Relations</h2>
                             <ul>
@@ -134,7 +135,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 SEO Services */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/pexels-fauxels-3184357 (1).jpg.jpeg")} alt="SEO Services" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-fauxels-3184357 (1).jpg.jpeg")} alt="SEO Services" />
                         <div className="content">
                             <h2>SEO Services</h2>
                             <ul>
@@ -155,7 +156,7 @@ function DigitalMarketing() {
 
                     {/* 🔹 Social Media Marketing */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/pexels-magnus-mueller-1398178-2818118.jpg.jpeg")} alt="Social Media Marketing" />
+                        <LazyImage src={resolveAsset("client/src/assets/pexels-magnus-mueller-1398178-2818118.jpg.jpeg")} alt="Social Media Marketing" />
                         <div className="content">
                             <h2>Social Media Marketing</h2>
                             <ul>

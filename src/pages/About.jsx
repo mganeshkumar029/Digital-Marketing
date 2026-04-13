@@ -16,7 +16,7 @@ function About() {
                 <div className="about-card">
                     <h2>Who We Are</h2>
                     <p>
-                        <strong>ASHX-USA GLOBAL NETWORK</strong> is a forward-thinking marketing company
+                        <strong>ASHX GLOBAL NETWORK</strong> is a forward-thinking marketing company
                         dedicated to helping businesses grow through strategic, creative, and
                         technology-driven solutions.
                     </p>

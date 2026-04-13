@@ -66,11 +66,28 @@ main {
   font-weight: 700;
   letter-spacing: 0.3px;
   color: #f8fafc;
+  font-size: 1.35rem;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  line-height: 1;
+}
+
+.navbar .navbar-brand span {
+  color: var(--brand-mint);
+}
+
+.navbar-brand-logo {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  display: block;
 }
 
 .navbar .nav-link {
   color: #cbd5e1 !important;
-  transition: color 0.25s ease;
+  transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
 }
 
 .navbar .nav-link:hover,
@@ -86,6 +103,155 @@ main {
 
 .navbar .dropdown-item {
   color: #dbeafe;
+}
+
+.navbar .dropdown-toggle.btn.btn-link {
+  text-decoration: none;
+  border: 0;
+  box-shadow: none;
+}
+
+.navbar-socials {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-socials-inline {
+  margin-left: 18px;
+  margin-right: auto;
+}
+
+.navbar-social-link {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #e2e8f0;
+  background: rgba(15, 23, 42, 0.9);
+  border: 1px solid rgba(56, 189, 248, 0.2);
+  text-decoration: none;
+  transition: transform 0.2s ease, color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.navbar-social-link:hover {
+  color: var(--brand-cyan);
+  border-color: rgba(45, 212, 191, 0.5);
+  background: rgba(15, 23, 42, 1);
+  transform: translateY(-2px);
+}
+
+.navbar-social-link svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (min-width: 992px) {
+  .navbar.navbar-dark.bg-dark {
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    background: rgba(3, 10, 28, 0.82) !important;
+    border-bottom: 1px solid rgba(56, 189, 248, 0.16);
+    box-shadow: 0 18px 40px rgba(2, 6, 23, 0.28);
+  }
+
+  .navbar-shell {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .navbar .navbar-brand {
+    margin-right: 22px;
+    font-size: 1.42rem;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    gap: 9px;
+  }
+
+  .navbar-links {
+    gap: 10px;
+    align-items: center;
+  }
+
+  .navbar .nav-link,
+  .navbar .dropdown-toggle.btn.btn-link {
+    min-height: 44px;
+    padding: 10px 18px !important;
+    border-radius: 999px;
+    border: 1px solid transparent;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+
+  .navbar .nav-link:hover,
+  .navbar .dropdown-toggle.btn.btn-link:hover {
+    color: #f8fafc !important;
+    background: rgba(15, 23, 42, 0.72);
+    border-color: rgba(56, 189, 248, 0.22);
+    transform: translateY(-1px);
+  }
+
+  .navbar .nav-item.dropdown {
+    position: relative;
+  }
+
+  .navbar .dropdown-menu {
+    margin-top: 12px;
+    min-width: 260px;
+    padding: 10px;
+    border-radius: 18px;
+    border: 1px solid rgba(71, 85, 105, 0.32);
+    background: rgba(8, 15, 32, 0.96);
+    box-shadow: 0 24px 48px rgba(2, 6, 23, 0.34);
+  }
+
+  .navbar .dropdown-item {
+    border-radius: 12px;
+    padding: 12px 14px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+  }
+
+  .navbar .dropdown-item:hover {
+    background: rgba(15, 23, 42, 0.95);
+    transform: translateX(2px);
+  }
+
+  .navbar-socials-inline {
+    margin-left: 10px;
+    margin-right: 26px;
+    gap: 12px;
+  }
+
+  .navbar-social-link {
+    width: 40px;
+    height: 40px;
+    color: #dbeafe;
+    background: linear-gradient(180deg, rgba(15, 23, 42, 0.98), rgba(12, 20, 38, 0.9));
+    border: 1px solid rgba(148, 163, 184, 0.18);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  }
+
+  .navbar-social-link:hover {
+    color: #ffffff;
+    border-color: rgba(45, 212, 191, 0.55);
+    background: linear-gradient(135deg, rgba(8, 47, 73, 0.92), rgba(17, 94, 89, 0.88));
+    box-shadow: 0 12px 24px rgba(8, 47, 73, 0.22);
+  }
+
+  .navbar-brand-logo {
+    width: 38px;
+    height: 38px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -105,5 +271,31 @@ main {
   main {
     padding-top: 72px;
     padding-bottom: 48px;
+  }
+
+  .navbar-socials-inline {
+    margin-left: auto;
+    margin-right: 10px;
+    gap: 5px;
+  }
+
+  .navbar-social-link {
+    width: 30px;
+    height: 30px;
+  }
+
+  .navbar-social-link svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .navbar .navbar-brand {
+    gap: 6px;
+    font-size: 1.15rem;
+  }
+
+  .navbar-brand-logo {
+    width: 28px;
+    height: 28px;
   }
 }

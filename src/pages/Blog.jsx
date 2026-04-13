@@ -1,14 +1,17 @@
 import "../../CSS/Blog.css";
 import { resolveAsset } from "../utils/resolveAsset"
+import LazyImage from "../components/LazyImage";
 
 function Blog() {
     return (
         <div className="about-section">
             <div className="container blog-hero">
-                <img
+                <LazyImage
                     className="blog-hero-image"
                     src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail.png")}
                     alt="AI Search Optimization"
+                    loading="eager"
+                    fetchPriority="high"
                 />
             </div>
             {/* Title */}
@@ -145,7 +148,7 @@ function Blog() {
             </div>
             {/* META ADS SECTION */}
             <div className="container blog-hero">
-                <img
+                <LazyImage
                     className="blog-hero-image"
                     src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (1).png")}
                     alt="AI Search Optimization"
@@ -311,7 +314,7 @@ function Blog() {
 
             {/* SEO CONTENT SECTION */}
             <div className="container blog-hero">
-                <img
+                <LazyImage
                     className="blog-hero-image"
                     src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (2).png")}
                     alt="AI Search Optimization"
@@ -463,7 +466,7 @@ function Blog() {
 
             {/* DIGITAL VS TRADITIONAL MARKETING SECTION */}
             <div className="container blog-hero">
-                <img
+                <LazyImage
                     className="blog-hero-image"
                     src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (3).png")}
                     alt="AI Search Optimization"
@@ -587,7 +590,7 @@ function Blog() {
 
             {/* GOOGLE ADS SMART BIDDING SECTION */}
             <div className="container blog-hero">
-                <img
+                <LazyImage
                     className="blog-hero-image"
                     src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (4).png")}
                     alt="AI Search Optimization"
@@ -739,7 +742,7 @@ function Blog() {
 
             {/* TRADITIONAL MARKETING SECTION */}
             <div className="container blog-hero">
-                <img
+                <LazyImage
                     className="blog-hero-image"
                     src={resolveAsset("client/src/assets/Blue Black and White Bold Social Media Growth YouTube Thumbnail (5).png")}
                     alt="AI Search Optimization"

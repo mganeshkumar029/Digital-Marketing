@@ -37,7 +37,7 @@ function Footer() {
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <h6 className="fw-bold">Contact Us</h6>
                         <p className="mt-3"><i className="bi bi-geo-alt-fill me-2"></i> Nagercoil, Tamil Nadu</p>
-                        <p><i className="bi bi-telephone-fill me-2"></i> +91 ##</p>
+                        <p><i className="bi bi-telephone-fill me-2"></i> +91 8300366911</p>
                         <p><i className="bi bi-envelope-fill me-2"></i> support@digimarket.com</p>
                     </div>
 

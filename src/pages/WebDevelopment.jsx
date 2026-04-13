@@ -1,6 +1,7 @@
 import React from 'react'
 import "../../CSS/WebDevelopment.css"
 import { resolveAsset } from "../utils/resolveAsset"
+import LazyImage from "../components/LazyImage"
 
 
 function WebDevelopment() {
@@ -17,7 +18,7 @@ function WebDevelopment() {
 
                     {/* Web Development – Digital Design */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation.png")} alt="Digital Design" />
+                        <LazyImage src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation.png")} alt="Digital Design" />
                         <div className="content">
                             <h2>Digital Design</h2>
                             <p>
@@ -28,7 +29,7 @@ function WebDevelopment() {
 
                     {/* Graphic Design */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (1).png")} alt="Graphic Design" />
+                        <LazyImage src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (1).png")} alt="Graphic Design" />
                         <div className="content">
                             <h2>Graphic Design</h2>
                             <p>
@@ -39,7 +40,7 @@ function WebDevelopment() {
 
                     {/* UI UX */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (2).png")} alt="UI/UX Design" />
+                        <LazyImage src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (2).png")} alt="UI/UX Design" />
                         <div className="content">
                             <h2>UI/UX Design</h2>
                             <p>
@@ -50,7 +51,7 @@ function WebDevelopment() {
 
                     {/* Web Design */}
                     <div className="service-section reverse">
-                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (3).png")} alt="Web Design" />
+                        <LazyImage src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (3).png")} alt="Web Design" />
                         <div className="content">
                             <h2>Web Design</h2>
                             <p>
@@ -61,7 +62,7 @@ function WebDevelopment() {
 
                     {/* Website Maintenance */}
                     <div className="service-section">
-                        <img src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (4).png")} alt="Website Maintenance" />
+                        <LazyImage src={resolveAsset("client/src/assets/White Blue Teal And Pink Illustrative UXUI Design Services Presentation (4).png")} alt="Website Maintenance" />
                         <div className="content">
                             <h2>Website Maintenance</h2>
                             <p>
