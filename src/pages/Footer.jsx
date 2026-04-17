@@ -7,7 +7,7 @@ function Footer() {
                 <div className="row gy-4">
 
                     <div className="col-lg-4 col-md-6 col-sm-12">
-                        <h4 className="fw-bold brand-title">DigiMarket</h4>
+                        <h4 className="fw-bold brand-title">ASHX GLOBAL NETWORK</h4>
                         <p className="footer-desc">
                             A leading digital solution provider delivering expert marketing,
                             branding, publication, and business growth strategies.
@@ -19,8 +19,8 @@ function Footer() {
                         <ul className="list-unstyled mt-3 footer-links">
                             <li><a href="/">Home</a></li>
                             <li><a href="/about">About</a></li>
-                            <li><a href="#">Blogs</a></li>
-                            <li><a href="#">Gallery</a></li>
+                            <li><a href="/Blog">Blogs</a></li>
+                            <li><a href="/Gallery">Gallery</a></li>
                             <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
@@ -46,7 +46,7 @@ function Footer() {
                 <hr className="border-light my-4" />
 
                 <div className="text-center small copyright">
-                    © 2025 DigiMarket. All Rights Reserved.
+                    © 2026 Ashxglobalnetwork. All Rights Reserved.
                 </div>
             </div>
         </footer>

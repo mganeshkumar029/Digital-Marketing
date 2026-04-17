@@ -147,13 +147,13 @@ const Contact = () => {
                     <p><strong>Phone:</strong> +91 8300366911</p>
                     <p><strong>Email:</strong> hello@example.com</p>
                     <hr />
-                    <h4>Working hours</h4>
-                    <p>Mon - Fri: 9:00 - 18:00</p>
+                    {/* <h4>Working hours</h4>
+                    <p>Mon - Fri: 9:00 - 18:00</p> */}
 
-                    <LazyImage
+                    {/* <LazyImage
                         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKcoZrpiJ0dCw2vClTyOGKJ6s-SMGwA-Z-Lw&s"
                         alt="office"
-                    />
+                    /> */}
                 </aside>
             </div>
         </section>

@@ -93,7 +93,10 @@ function DigitalMarketing() {
                         <div className="content">
                             <h2>Data Analytics</h2>
                             <ul>
-                                <li><strong>Machine Learning & AI</strong> – Predictive analytics & targeting.</li>
+                                <li><strong>Data Collection & Integration</strong> – Collect data from websites, ads, and social media
+Integrate multiple data sources into one system.</li>
+                                <li><strong>Performance Tracking</strong> –Track website traffic, user behavior & conversions
+Monitor campaign performance in real-time.</li>
                             </ul>
                         </div>
                     </div>
@@ -104,9 +107,18 @@ function DigitalMarketing() {
                         <div className="content">
                             <h2>Marketing Advice</h2>
                             <ul>
-                                <li>Inbound Marketing</li>
-                                <li>Lead Generation</li>
-                                <li>Market Research</li>
+                                <li><strong>Business & Market Analysis</strong> – Understand your business goals and challenges
+Analyze competitors and industry trends</li>
+                                <li><strong>Strategy Developmen</strong> – Customized marketing plans for your brand
+Online & offline strategy alignment</li>
+                                <li><strong>Brand Positioning</strong> –Build a strong and memorable brand identity</li>
+                                <li><strong>Digital Marketing Guidance</strong> – Advice on ads, social media, SEO & content
+Platform selection based on your audience</li>
+                                <li><strong>Budget Planning & ROI Focus</strong> – Smart budget allocation
+Maximize returns on every rupee spent</li>
+                                <li><strong>Growth & Scaling Strategy</strong> –Step-by-step growth roadmap
+Long-term scaling plans for your business</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -117,7 +129,13 @@ function DigitalMarketing() {
                         <div className="content">
                             <h2>Marketing Automation</h2>
                             <ul>
-                                <li>Email Marketing – Automated funnels & nurturing.</li>
+                                <li><strong>Lead Management & CRM Integration</strong> – Capture, track, and manage leads efficiently
+Integration with CRM systems for better workflow</li>
+                                <li><strong>Customer Journey Automation</strong> – Map and automate user journeys
+Trigger-based actions (welcome emails, reminders, offers).</li>
+                                <li><strong>Campaign Automation</strong> – Schedule and automate marketing campaigns
+Multi-channel automation (email, SMS, social media).</li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -128,7 +146,14 @@ function DigitalMarketing() {
                         <div className="content">
                             <h2>Public Relations</h2>
                             <ul>
-                                <li>Influencer Marketing – Scale reach & trust.</li>
+                                <li><strong>Media Relations</strong> – Build strong connections with journalists & media outlets
+Press coverage in online, print, and digital platforms.</li>
+                                <li><strong>Press Release Writing & Distribution</strong> – Professional press release creation
+Distribution to relevant media channels.</li>
+                                <li><strong>Brand Reputation Management</strong> – Monitor and manage brand image
+Handle negative publicity and build trust.</li>
+                                <li><strong>Influencer & Celebrity Outreach</strong> – Collaborate with influencers for brand promotion
+Strategic partnerships to increase visibility.</li>
                             </ul>
                         </div>
                     </div>
