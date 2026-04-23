@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { Outlet } from "react-router-dom";
 
 export default function Layout() {
-    const phoneNumber = "+918300366911";
+    const phoneNumber = "+918838882401";
     const [showCallHint, setShowCallHint] = useState(true);
 
     useEffect(() => {

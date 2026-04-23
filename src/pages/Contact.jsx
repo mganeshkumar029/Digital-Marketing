@@ -143,9 +143,10 @@ const Contact = () => {
                 {/* Info Card */}
                 <aside className="card card-info">
                     <h3>Contact details</h3>
-                    <p><strong>Office:</strong> 123 Your Street, City</p>
-                    <p><strong>Phone:</strong> +91 8300366911</p>
-                    <p><strong>Email:</strong> hello@example.com</p>
+                    <p><strong>Office:</strong> Mathilagam, Railway Station Rd,
+                        Marthandam,Tamilnadu 629165, India</p>
+                    <p><strong>Phone:</strong> +91 8838882401, +91 8610702043</p>
+                    <p><strong>Email:</strong> ashxglobalnetwork.agn@gmail.com</p>
                     <hr />
                     {/* <h4>Working hours</h4>
                     <p>Mon - Fri: 9:00 - 18:00</p> */}

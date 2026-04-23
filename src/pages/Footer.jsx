@@ -36,9 +36,11 @@ function Footer() {
 
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         <h6 className="fw-bold">Contact Us</h6>
-                        <p className="mt-3"><i className="bi bi-geo-alt-fill me-2"></i> Nagercoil, Tamil Nadu</p>
-                        <p><i className="bi bi-telephone-fill me-2"></i> +91 8300366911</p>
-                        <p><i className="bi bi-envelope-fill me-2"></i> support@digimarket.com</p>
+                        <p className="mt-3"><i className="bi bi-geo-alt-fill me-2"></i> Mathilagam, Railway Station Rd,
+                        Marthandam,Tamilnadu 629165, India
+                        </p>
+                        <p><i className="bi bi-telephone-fill me-2"></i> +91 8838882401, +91 8610702043</p>
+                        <p><i className="bi bi-envelope-fill me-2"></i> ashxglobalnetwork.agn@gmail.com</p>
                     </div>
 
                 </div>
