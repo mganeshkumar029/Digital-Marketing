@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "../../CSS/Footer.css"
 
 function Footer() {
@@ -17,20 +18,20 @@ function Footer() {
                     <div className="col-lg-2 col-md-6 col-sm-12">
                         <h6 className="fw-bold">Quick Links</h6>
                         <ul className="list-unstyled mt-3 footer-links">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/about">About</a></li>
-                            <li><a href="/Blog">Blogs</a></li>
-                            <li><a href="/Gallery">Gallery</a></li>
-                            <li><a href="/contact">Contact</a></li>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/about">About</Link></li>
+                            <li><Link to="/blog">Blogs</Link></li>
+                            <li><Link to="/gallery">Gallery</Link></li>
+                            <li><Link to="/contact">Contact</Link></li>
                         </ul>
                     </div>
 
                     <div className="col-lg-2 col-md-6 col-sm-12">
                         <h6 className="fw-bold">Our Services</h6>
                         <ul className="list-unstyled mt-3 footer-links">
-                            <li><a href="/digiMarketing">Digital Marketing</a></li>
-                            <li><a href="/fieldMarketing">Field & Traditional Marketing</a></li>
-                            <li><a href="/webDevelopment">Web Development</a></li>
+                            <li><Link to="/digiMarketing">Digital Marketing</Link></li>
+                            <li><Link to="/fieldMarketing">Field & Traditional Marketing</Link></li>
+                            <li><Link to="/webDevelopment">Web Development</Link></li>
                         </ul>
                     </div>
 
